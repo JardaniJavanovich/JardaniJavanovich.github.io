@@ -1,0 +1,24 @@
+.container{ display: flex;
+	widows: 1000px;
+	background-color: purple;
+	justify-content: flex-end;
+
+}
+
+.item{
+	width: 100px;
+}
+
+#item-1{ background-color: red;
+	flex-grow: 0;
+}
+
+#item-2{
+	background-color: blue;
+     flex-grow: 0;
+}
+
+#item-3{
+	background-color: green;
+	flex-grow: 0;
+}
