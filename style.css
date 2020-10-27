@@ -1,12 +1,25 @@
- 
-.nadpis {
-	font-family: 'Vampiro One', cursive;
-font-size: 80px;
-color:#d40000;
-display: inline;
+.container{ display: flex;
+	flex-direction: column;
+	widows: 1000px;
+	background-color: purple;
+	justify-content: flex-end;
+
 }
 
-.shapka img {
-	height: 95px;
-	width: 80px;
+.item{
+	width: 100px;
+}
+
+#item-1{ background-color: red;
+	flex-grow: 0;
+}
+
+#item-2{
+	background-color: blue;
+     flex-grow: 0;
+}
+
+#item-3{
+	background-color: green;
+	flex-grow: 0;
 }

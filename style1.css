@@ -1,24 +1,30 @@
-.container{ display: flex;
-	widows: 1000px;
-	background-color: purple;
-	justify-content: flex-end;
+.header-container{
+	font-family: 'Lobster', cursive;
+	color: #d40000;
+	font-size: 100px;
+	justify-content: center;
+	
+}
+.flex{
+	display: flex;
 
 }
 
-.item{
-	width: 100px;
+.header-container img{
+	height: auto;
+	width: 107px;
 }
 
-#item-1{ background-color: red;
+#header-item-1{
+	flex-grow: 1;
+
+}
+
+#header-item-2{
 	flex-grow: 0;
+
 }
 
-#item-2{
-	background-color: blue;
-     flex-grow: 0;
-}
-
-#item-3{
-	background-color: green;
-	flex-grow: 0;
+.menu-container{
+	justify-content: space-around;
 }
