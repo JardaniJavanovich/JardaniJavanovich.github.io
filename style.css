@@ -1,25 +1,32 @@
-.container{ display: flex;
+body {
+	margin: 0;
+}
+
+.header_container {
+	display: flex;
 	flex-direction: column;
-	widows: 1000px;
-	background-color: purple;
-	justify-content: flex-end;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-image: url(img/big.jpg);
+	background-size: cover;
+
+}
+.text_container{
+
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px; 
 
 }
 
-.item{
-	width: 100px;
+.photo_container{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	
 }
-
-#item-1{ background-color: red;
-	flex-grow: 0;
-}
-
-#item-2{
-	background-color: blue;
-     flex-grow: 0;
-}
-
-#item-3{
-	background-color: green;
-	flex-grow: 0;
+.photo_container img{
+    margin:0 10px;
 }
