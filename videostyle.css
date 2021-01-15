@@ -1,0 +1,11 @@
+.video_mp4{
+  position:absolute;
+  justify-content: center|space-between;
+}
+
+.video_youtube{
+  position:absolute;
+  justify-content:space-between | center;
+  flex-direction:row;
+  top:306px;
+}
