@@ -1,0 +1,95 @@
+body{
+	height: 100%;
+	background-color: rgb(44, 44, 44);
+	margin: 0;
+}
+
+.page{
+	background-image: url(img/mozhaysk2.jpg);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	background-color: black;
+	background-position: center;
+	position: absolute;
+	overflow: hidden;
+	
+}
+
+.page::after {
+	background-color: hsla(0, 0%, 0%, 0.3);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	content: "";
+}
+
+.header-nav{
+	position: absolute;
+	top: 32px;
+	right: 48px;
+	z-index: 999;
+}
+
+.menu{
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.menu-li{
+	font-weight: 900;
+	font-family: 'Rubik Mono One', sans-serif;
+	display: inline;
+}
+
+.menu-a{
+	font-size: 14px;
+	line-height: 1.4;
+	margin-right: 12px;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	
+}
+
+.logo{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 108px;
+	text-transform: uppercase;
+	line-height: 0.9;
+	color: white;
+	text-align: center;
+	margin-top: 280px;
+	z-index: 999;
+	position: relative;
+	
+	
+}
+
+.copyright{
+	text-transform: uppercase;
+	font-family: 'Inter', sans-serif;
+	padding: 5px;
+	color: #fff;
+	position: absolute;
+	left: 48px;
+	bottom: 40px;
+	line-height: 1.4;
+	font-size: 13px;
+	font-weight: 400;
+	max-width: 400px;
+	z-index: 999;
+	
+}
+
+.mail{
+	border-bottom: 1px solid white;
+	text-decoration: none;
+	color: inherit;
+}
